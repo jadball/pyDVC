@@ -39,6 +39,10 @@ If you want to set up a dedicated virtual environment for pyDVC, follow the inst
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+
+You can find an example Jupyter Notebook with some plotting on [GitHub](https://github.com/jadball/pyDVC) in [examples/simple_example.ipynb](https://github.com/jadball/pyDVC/blob/main/examples/simple_example.ipynb)
+A simpler example is below:
+
 ```py
 import numpy as np
 from pyDVC import tessellate

@@ -1,5 +1,10 @@
 import setuptools
 
+# read README for long description
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
+
 setuptools.setup(
     name='pyDVC',
     version='0.0.3',
@@ -9,10 +14,8 @@ setuptools.setup(
     author='James Ball',
     author_email='jadball@gmail.com',
     description='Python implementation of Discrete Voronoi Chain algorithm by Mirko Velić, Dave May & Louis Moresi (2009).',
-    long_description=
-    """Python implementation of Discrete Voronoi Chain algorithm.
-    First described by Velić, Mirko & May, Dave & Moresi, Louis. (2009). A Fast Robust Algorithm for Computing Discrete Voronoi Diagrams. J Math Model Algor. 8. 343-355. 10.1007/s10852-008-9097-6.
-    http://dx.doi.org/10.1007/s10852-008-9097-6""",
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: BSD License",

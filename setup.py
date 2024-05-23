@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setuptools.setup(
     name='pyDVC',
-    version='0.0.3',
+    version='0.0.4',
     packages=setuptools.find_packages(),
     url='https://github.com/jadball/pyDVC',
     license='BSD 3-Clause',

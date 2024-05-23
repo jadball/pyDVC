@@ -4,7 +4,7 @@ setuptools.setup(
     name='pyDVC',
     version='1.0',
     packages=setuptools.find_packages(),
-    url='',
+    url='https://github.com/jadball/pyDVC',
     license='BSD 3-Clause',
     author='James Ball',
     author_email='jadball@gmail.com',

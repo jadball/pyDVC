@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='pyDVC',
-    version='1.0',
+    version='0.0.3',
     packages=setuptools.find_packages(),
     url='https://github.com/jadball/pyDVC',
     license='BSD 3-Clause',
